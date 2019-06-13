@@ -30,6 +30,7 @@ ActiveRecord::Schema.define(version: 20_190_614_073_251) do
   end
 
   create_table "bookings", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4", force: :cascade do |t|
+    t.integer "booking_id"
     t.integer "user_id"
     t.integer "status"
     t.datetime "booking_date"

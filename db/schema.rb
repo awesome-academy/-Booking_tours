@@ -12,7 +12,7 @@
 #
 # It"s strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20_190_612_010_451) do
+ActiveRecord::Schema.define(version: 20_190_614_073_251) do
   create_table "back_accounts", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4", force: :cascade do |t|
     t.integer "user_id"
     t.integer "bank_name"
@@ -31,7 +31,7 @@ ActiveRecord::Schema.define(version: 20_190_612_010_451) do
 
   create_table "bookings", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4", force: :cascade do |t|
     t.integer "user_id"
-    t.integer "status", default: 0, null: false
+    t.integer "status"
     t.datetime "booking_date"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
@@ -74,7 +74,7 @@ ActiveRecord::Schema.define(version: 20_190_612_010_451) do
     t.string "food"
     t.string "place"
     t.datetime "tour_date"
-    t.integer "status", default: 0, null: false
+    t.integer "status"
     t.integer "category"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
@@ -89,8 +89,10 @@ ActiveRecord::Schema.define(version: 20_190_612_010_451) do
     t.string "remember_disgest"
     t.datetime "create_at"
     t.datetime "update_at"
-    t.integer "role", default: 0, null: false
+    t.integer "role"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "password_digest"
+    t.string "remember_digest"
   end
 end

@@ -1,3 +1,45 @@
 en:
-  hello: "Hello world"
+  static_pages:
+    home:
+      title: "Home"
+      home_html: "This is the home page for the %{href} sample application."
+      home_href: "Ruby on Rails Tutorial"
+    help:
+      title: "Help"
+      help_html: "Get help on the Ruby on Rails Tutorial at the %{href1}"
+      book_html: "To get help on this sample app, see the %{href2}"
+      help_href: "Rails Tutorial help page."
+      book_href: "Ruby on Rails Tutorial book."
+    contact:
+      title: "Contact"
+      contact_html: "Contact the Ruby on Rails Tutorial about the sample app at the %{href}."
+      contact_href: "contact page"
+    about:
+      title: "About"
+      about_html: "The %{tut_href} is a %{book_href} and %{screencast_href} to teach web development with %{main_href}.
+      This is the sample application for the tutorial."
+      book: "book"
+      tutorial: "Ruby on Rails Tutorial"
+      screencast: "screencast series"
+      main:  "Ruby on Rails"
+  users:
+    new:
+       signup_html: "This will be a signup page for new users."
+  main_title: "Ruby on Rails Tutorial Sample App"
+  signup: "Sign up now!"
+  login: "Login"
+  news: "News"
+  tutorial: "Ruby on Rails Tutorial"
+  footer_html: "The %{main_href} by %{author_href}"
+  author: "Michael Hartl"
+  not_found_error: "Not Found"
+  create_account: "Create my account"
+  name: "Name"
+  password: "Password"
+  email: "Email"
+  confirmation: "Confirmation"
+  error_html: "This form contains %{error_count}."
+  error:
+    one: "%{count} error"
+    other: "%{count} errors"
   title: "Booking tours"

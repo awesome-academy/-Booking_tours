@@ -258,7 +258,8 @@ h1, h2, h3, h4, h5,
       display: inline-block;
       padding: 10px 5px; }
       .site-navbar .site-navigation .site-menu > li > a {
-        padding: 10px 0px;
+        font-size: 20px;
+        padding: 20px 20px;
         color: #000;
         text-decoration: none !important; }
         .site-navbar .site-navigation .site-menu > li > a:hover {
@@ -1162,3 +1163,10 @@ h1, h2, h3, h4, h5,
   @media (max-width: 991.98px) {
     .overlap-left {
       margin-left: 0px; } }
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}

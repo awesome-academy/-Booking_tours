@@ -1,23 +1,7 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: MyString
-  phone_number: MyString
-  email: MyString
-  address: MyString
-  password_disgest: MyString
-  remember_disgest: MyString
-  create_at: 2019-06-12 07:49:09
-  update_at: 2019-06-12 07:49:09
-  role: 1
+  new: MyString
 
 two:
-  name: MyString
-  phone_number: MyString
-  email: MyString
-  address: MyString
-  password_disgest: MyString
-  remember_disgest: MyString
-  create_at: 2019-06-12 07:49:09
-  update_at: 2019-06-12 07:49:09
-  role: 1
+  new: MyString

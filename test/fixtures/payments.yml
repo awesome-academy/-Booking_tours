@@ -1,13 +1,7 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  bookdetails_id: 1
-  payment_amount: 1
-  payment_day: 2019-06-12 07:58:00
-  back_id: 1
+  new: MyString
 
 two:
-  bookdetails_id: 1
-  payment_amount: 1
-  payment_day: 2019-06-12 07:58:00
-  back_id: 1
+  new: MyString

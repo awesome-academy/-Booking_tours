@@ -17,7 +17,7 @@ gem "figaro"
 gem "jbuilder", "~> 2.5"
 gem "jquery-rails"
 gem "mini_magick"
-gem "puma", "~> 3.11"
+gem "puma", "~> 4.3"
 gem "rails", "~> 6.0.0.rc1"
 gem "rails-controller-testing"
 gem "rubocop", "~> 0.54.0", require: false
